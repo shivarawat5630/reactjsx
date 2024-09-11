@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* .app{
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh ;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  .header{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  }
+  .nav-list ul{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  }
+  
+  .nav-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+  }
+  .nav-item{
+  margin: 0 15px;
+  }
+  .nav-item a{
+  text-decoration: none;
+  color: #fff;
+  }
+  .nav-item a:hover{
+  text-decoration: underline;
+  }
+  
+  .main-content{
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  .footer{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;.app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
+  background-color: #f0f0f0;
 }
 
-.App-link {
-  color: #61dafb;
+.app div {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.app p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.app button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.app button:hover {
+  background-color: #444;
+}
+
+.app button:active {
+  background-color: #555;
+}
+  } */
+
+  /* .app{
+    text-align: center;
+    background-color: yellow;
+    margin-top:20%;
+    margin-left: 24%;
+    margin-right: 20%;
+    min-height: 80px;
+
   }
-  to {
-    transform: rotate(360deg);
+  h1{
+    color:red;
   }
+  h3{
+    color:red;
+  } */
+  
+ 
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#to {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+#to h1 {
+  color: red;
+}
+
+#to form {
+  margin-bottom: 20px;
+}
+
+#to input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 18px;
+}
+
+#to button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+#to button[type="submit"]:hover {
+  background-color: #444;
+}
+
+#to button[type="submit"]:active {
+  background-color: #555;
+}
+
+#to ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#to li {
+  margin-bottom: 10px;
+}
+
+#to input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#to span {
+  font-size: 18px;
+}
+
+#to button[type="button"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+#to button[type="button"]:hover {
+  background-color: #444;
+}
+
+#to button[type="button"]:active {
+  background-color: #555;
 }

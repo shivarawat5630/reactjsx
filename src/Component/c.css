@@ -1,0 +1,16 @@
+.Profile-box{
+    background-color: rgb(199, 199, 228);
+
+
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-decoration-line: underline;
+    border: 4px solid black;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding:50px;
+}
